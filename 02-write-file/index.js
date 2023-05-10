@@ -3,7 +3,7 @@ const path = require('path');
 const readline = require('readline');
 const process = require('process');
 
-process.stdin.write('привет, напиши что-нибудь\n');
+process.stdout.write('привет, напиши что-нибудь\n');
 
 process.on('exit', function() {
     reader.close();
